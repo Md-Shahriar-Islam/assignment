@@ -1,20 +1,22 @@
 body
 {
     font-family: 'IBM Plex Serif', serif;
+    margin:0;
 }
 .mission,.target
 {
     display:flex;
     margin-left:60px;
+    margin-bottom:100px;
 }
 .mission div
 {
-    width:40%;
+    width:45%;
     padding:0 5%;
 }
 .mission div img
 {
-    width:80%;
+    width:85%;
 }
 .information
 {
@@ -30,6 +32,12 @@ body
     border-image:linear-gradient(tomato,red);
     border-image-slice: 1;
 }
+.information h2 
+{
+    line-height:50px;
+    font-size:35px;
+    margin-left:15px;
+}
 .color
 {
     color:rgb(255, 208, 0);
@@ -37,7 +45,7 @@ body
 .information p
 {
     
-    margin:40px 0 40px 10px;
+    margin:40px 0 40px 15px;
 }
 a
 {
@@ -52,7 +60,7 @@ a
 .target div
 {
     width:25%;
-    margin-left:50px;
+    margin-left:55px;
     border-radius:20px;
     padding:0 20px;
     text-align: justify;
@@ -79,4 +87,22 @@ background-color:rgba(38, 0, 255, 0.103);
 #goal-three
 {
     background-color:rgba(219, 169, 103, 0.562);
+}
+footer
+{
+    background-color:rgb(25, 23, 34);
+    color:white;
+    padding:20px;
+}
+footer h1
+{
+    margin-left:40%;
+}
+footer p
+{
+    margin-left:30%;
+}
+footer span
+{
+    color:rgb(236, 190, 133);
 }
