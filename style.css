@@ -16,11 +16,12 @@ body
 }
 .mission div img
 {
-    width:85%;
+    width:80%;
 }
 .information
 {
-    margin-top:80px;
+    margin-top:70px;
+    text-align:justify;
 }
 .information h1
 {
@@ -87,6 +88,10 @@ background-color:rgba(38, 0, 255, 0.103);
 #goal-three
 {
     background-color:rgba(219, 169, 103, 0.562);
+}
+.out-image
+{
+    margin-top:70px;
 }
 footer
 {
